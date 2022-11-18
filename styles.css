@@ -16,7 +16,7 @@ body {
     margin-left: auto;
     
 }
-a {
+.headerlink {
     color: whitesmoke;
     text-decoration: none;
 }
@@ -30,6 +30,7 @@ a {
 }
 .maintitle {
     font-size: 48px;
+    color: #e5e7eb;
     
 }
 #asideimg {
@@ -39,4 +40,49 @@ a {
 }
 .aside {
     padding: 20px;
+}
+#asidetext {
+    color: #f9faf8;
+    font-size: 24px;
+}
+#buttonaside {
+    border:3px none black;
+    background-color: lightblue;
+    border-radius: 8px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 8px;
+}
+#headericon {
+   width: 50px;
+   height: 50px;
+   border-radius: 50px;
+}
+h2 {
+    text-align: center;
+}
+.grid {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.imgcard {
+    width: 300px;
+    height: 300px;
+    border: 5px solid #BBEEBB;
+    border-radius: 6px;
+}
+.cards {
+    display: flex;
+    flex-flow: row wrap;
+}
+#quote {
+    display: flex;
+    height: 500px;
+    background-color: #BBEEBB;
+    align-items: center;
+}
+.quote {
+    font-size: 36px;
+    text-align: center;
 }
