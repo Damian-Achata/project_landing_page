@@ -78,9 +78,17 @@ h2 {
 }
 #quote {
     display: flex;
-    height: 500px;
+    height: 400px;
     background-color: #BBEEBB;
     align-items: center;
+    margin: -8px;
+    padding: 8px;
+}
+#quoteautor {
+    display: block;
+    text-align: right;
+    font-size: 24px;
+    padding: 15px;
 }
 .quote {
     font-size: 36px;
