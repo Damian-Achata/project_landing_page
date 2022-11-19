@@ -5,7 +5,7 @@ body {
 
 .header {
     display: flex; 
-    background-color: #1f2937;
+    background-color: #aaabbc;
     color: aliceblue;
     flex: auto; 
     padding: 20px;  
@@ -23,7 +23,7 @@ body {
 
 .asidecontent,img {
     display: flex;
-    background-color: #1f2937;
+    background-color: #aaabbc;
     flex-flow: row;
     margin-left: -8px;
     margin-right: -8px;
@@ -61,7 +61,7 @@ body {
 h2 {
     text-align: center;
 }
-.grid {
+#grid {
     display: flex;
     gap: 100px;
     justify-content: center;
@@ -93,4 +93,42 @@ h2 {
 .quote {
     font-size: 36px;
     text-align: center;
+}
+footer {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    margin: 5%;
+}
+.containerfooter {
+    display: flex;
+    flex: auto;
+    flex-flow: column wrap;
+    height: 350px;
+    align-items: center;
+    background-color: #BBEEBB;
+    width: 60%;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-radius: 8px;
+}
+p {
+    
+}
+h4 {
+    font-size: 36px;
+}
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.gridtext {
+    text-align: center;
+}
+#footertext {
+    font-size: 18px;
+    padding: 5px;
 }
